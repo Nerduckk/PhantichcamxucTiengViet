@@ -4,10 +4,13 @@
       "k": "không", "ko": "không", "kh": "không", "khg": "không", "khong": "không", "hok": "không", "hông": "không", "hong": "không", "hổng": "không", "khum": "không", "nỏ": "không", "méo": "không", "hẻm": "không", "chẳng": "không", "chả": "không", "kg": "không", "đếu": "không", "đếch": "không", "đíu": "không"
     },
     "positive": {
-      "ok": "tốt", "okela": "tốt", "oke": "tốt", "okie": "tốt", "gút": "tốt", "on": "ổn", "xịn": "tốt", "đỉnk": "đỉnh", "mlem": "ngon", "iu": "yêu", "tks": "cảm ơn", "thank": "cảm ơn", "fê lòi": "phê", "đág đồg tiền": "đáng đồng tiền", "xjh": "xinh", "đỉnk kout": "đỉnh cao", "chuns": "chuẩn", "wud": "good", "slay": "tuyệt vời", "flex": "khoe"
+      "ok": "tốt", "okela": "tốt", "okila": "tốt", "oki": "tốt", "oke": "tốt", "okie": "tốt", "gút": "tốt", "on": "ổn", "xịn": "tốt", "đỉnk": "đỉnh", "mlem": "ngon", "iu": "yêu", "tks": "cảm ơn", "thank": "cảm ơn", "fê lòi": "phê", "đág đồg tiền": "đáng đồng tiền", "xjh": "xinh", "đỉnk kout": "đỉnh cao", "chuns": "chuẩn", "wud": "good", "slay": "tuyệt vời", "flex": "khoe"
     },
     "negative": {
       "phake": "giả", "pha kè": "giả", "fake": "giả", "tệ": "tệ", "dỏm": "tệ", "lỏ": "tệ", "thất vọg": "thất vọng", "thất vọk": "thất vọng", "phí tìn": "phí tiền", "hẻm đág": "không đáng", "cùi bắp": "tệ", "xịt keo": "sững sờ"
+    },
+    "neutral": {
+      "bt": "bình thường", "bth": "bình thường", "bthg": "bình thường", "cx": "cũng", "cug": "cũng", "btg": "bình thường"
     },
     "intensifier": {
       "vcl": "rất", "vl": "rất", "vãi": "rất", "đm": "rất", "qa": "quá", "vđ": "rất", "dã man": "rất", "kinh khủng": "rất", "vcc": "rất"
