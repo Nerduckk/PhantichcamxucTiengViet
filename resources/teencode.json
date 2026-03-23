@@ -1,0 +1,19 @@
+{
+  "teencode": {
+    "negation": {
+      "k": "không", "ko": "không", "kh": "không", "khg": "không", "khong": "không", "hok": "không", "hông": "không", "hong": "không", "hổng": "không", "khum": "không", "nỏ": "không", "méo": "không", "hẻm": "không", "chẳng": "không", "chả": "không", "kg": "không", "đếu": "không", "đếch": "không", "đíu": "không"
+    },
+    "positive": {
+      "ok": "tốt", "okela": "tốt", "oke": "tốt", "okie": "tốt", "gút": "tốt", "on": "ổn", "xịn": "tốt", "đỉnk": "đỉnh", "mlem": "ngon", "iu": "yêu", "tks": "cảm ơn", "thank": "cảm ơn", "fê lòi": "phê", "đág đồg tiền": "đáng đồng tiền", "xjh": "xinh", "đỉnk kout": "đỉnh cao", "chuns": "chuẩn", "wud": "good", "slay": "tuyệt vời", "flex": "khoe"
+    },
+    "negative": {
+      "phake": "giả", "pha kè": "giả", "fake": "giả", "tệ": "tệ", "dỏm": "tệ", "lỏ": "tệ", "thất vọg": "thất vọng", "thất vọk": "thất vọng", "phí tìn": "phí tiền", "hẻm đág": "không đáng", "cùi bắp": "tệ", "xịt keo": "sững sờ"
+    },
+    "intensifier": {
+      "vcl": "rất", "vl": "rất", "vãi": "rất", "đm": "rất", "qa": "quá", "vđ": "rất", "dã man": "rất", "kinh khủng": "rất", "vcc": "rất"
+    },
+    "ecommerce_and_common": {
+      "ship": "giao hàng", "shipper": "người giao hàng", "dc": "được", "đc": "được", "rep": "phản hồi", "trl": "trả lời", "mk": "mình", "bjk": "biết", "sx": "sản xuất", "sz": "size", "dk": "được", "fb": "feedback", "onl": "online", "phom": "form", "nt": "nhắn tin", "tl": "trả lời", "ncl": "nói chung là", "chằm zn": "trầm cảm", "et o et": "sos", "gwenana": "không sao đâu"
+    }
+  }
+}
