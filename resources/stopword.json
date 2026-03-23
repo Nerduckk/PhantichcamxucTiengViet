@@ -1,0 +1,83 @@
+{
+  "remove_always": [
+    "là","thì","mà","rằng","của","những","các","với","theo","hoặc",
+    "vả_lại","bởi_vì","tại_vì","cho_nên","vì_vậy","do_đó","thế_nên","vậy_nên",
+    "kể_cả","thay_vì","cộng_thêm","hơn_nữa","thêm_nữa","và_lại",
+
+    "này","kia","ấy","đó","nọ","đây","đấy",
+    "tại","do","bởi","về","cho","đến","tới","vào","ra","lên","xuống","sang","qua",
+
+    "mỗi","mọi","từng","cái","chiếc","tấm","bộ","con","loại","nhóm",
+    "vài","ít","nhiều","toàn_bộ","đa_số",
+
+    "ạ","dạ","vâng","nhé","nha","nhen","nghen","nhể","nhở","nhỉ","nè","á","hả","hử","ư",
+    "thôi","thui","thoy","vậy","hén",
+
+    "đang","sẽ","sắp","vừa","mới","xong","rồi","gòi","rùi","xong_xuôi","chuẩn_bị",
+
+    "thực_ra","hình_như","dường_như",
+
+    "mình","tớ","cậu","hắn","y","họ","người_ta",
+
+    "admin","sếp","chủ_shop","shop","shoppp","shoppe","shopee","sốp",
+
+    "ak","ah","oh","uầy","u_là_trời",
+    "hà","hén","hửm","hố_hố","hí_hí",
+
+    "ok","oki","okie","okela","okelaa","okla","okkk",
+
+    "bt","bth","bthg","btg","cx","cug","cũng",
+    "đc","dc","dk",
+
+    "khog","khg","khôg","khôngg",
+    "nhug","nhưngg",
+
+    "mau","màu","mầu",
+
+    "sp","san_pham","spham",
+
+    "sz","size","sizee",
+
+    "form","formm","foem","fom",
+
+    "fb","ib","rep","pm",
+
+    "combo","flash","sale",
+
+    "ae","mn","mọi_ng","mng",
+
+    "b","t","m","e","tk",
+
+    "kg","kí","xx","×",
+
+    "sao_sao","đâu_đâu",
+
+    "hihi","hehe","ahihi","hix","huhu","hy_hy","kkk",
+
+    "sorry","tks","thanks"
+  ],
+
+  "keep_for_sentiment": [
+    "không","chưa","chẳng","chả","khum","ko","k","kh",
+    "đéo","đếch","đếu","éo","dell","dcl","không_hề","đâu_có","chả_nhẽ",
+
+    "nhưng","tuy_nhiên","nhưng_mà","thế_mà","vậy_mà",
+    "trái_lại","ngược_lại","mà_lại","cơ_mà","tuy_vậy","mặc_dù",
+
+    "rất","quá","lắm",
+
+    "tốt","ổn","ok","đẹp","xịn","tuyệt_vời",
+    "kém","tệ","xấu","lỗi","chán","dở","tệ_hại",
+
+    "nhanh","chậm",
+    "đúng","sai",
+    "giống","khác",
+    "ổn_định","không_ổn",
+
+    "ưng","hài_lòng","thất_vọng","bực","tức","khó_chịu",
+
+    "nóng","mát","mỏng","dày","cứng","mềm",
+
+    "đáng_tiền","không_đáng","tiền_nào_của_nấy"
+  ]
+}
