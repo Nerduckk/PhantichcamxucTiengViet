@@ -55,5 +55,12 @@
     "hihi","hehe","ahihi","hix","huhu","hy_hy","kkk",
 
     "sorry","tks","thanks"
+  ],
+  "keep_for_sentiment": [
+    "không", "chưa", "chẳng", "chả", "không_hề", "đâu_có",
+
+    "nhưng", "tuy_nhiên", "nhưng_mà", "thế_mà", "vậy_mà", "trái_lại", "ngược_lại", "tuy_vậy", "mặc_dù",
+
+    "rất", "quá", "lắm", "cực_kỳ", "hơi", "quá_chừng"
   ]
 }
