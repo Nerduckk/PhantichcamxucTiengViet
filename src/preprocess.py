@@ -35,19 +35,34 @@ def clean_text(text):
     return " ".join(words)
 
 
-def preprocess_pipeline(input_path, output_path):
+def preprocess_pipeline(input_path, output_path_csv, output_path_txt):
     df = pd.read_csv(input_path)
     print(f"Đang xử lý file: {input_path}")
     
-    # Áp dụng hàm làm sạch cho cột comments
+    # 1. Áp dụng hàm làm sạch (giữ nguyên logic của bạn)
     df['comments_clean'] = df['comments'].apply(clean_text)
     
-    # Lưu kết quả
-    df.to_csv(output_path, index=False, encoding='utf-8-sig')
-    print(f"Đã lưu file sạch tại: {output_path}")
+    # 2. Loại bỏ các dòng bị trống sau khi làm sạch 
+    df = df.dropna(subset=['comments_clean'])
+    df = df[df['comments_clean'].str.strip() != ""]
 
-# Thực hiện cho tập Train
-preprocess_pipeline('data/preprocessed/train.csv', 'data/processed/train_cleaned.csv')
+    # 3. Lưu file .csv để dùng cho Notebook/Pandas
+    df.to_csv(output_path_csv, index=False, encoding='utf-8-sig')
+    
+    # 4. Tạo định dạng FastText: __label__<flag> <văn_bản>
+    df_fasttext = "__label__" + df['flag'].astype(str) + " " + df['comments_clean']
+    
+    # 5. Lưu file .txt dành riêng cho FastText
+    df_fasttext.to_csv(output_path_txt, index=False, header=False, encoding='utf-8')
+    
+    print(f"Đã lưu CSV tại: {output_path_csv}")
+    print(f"Đã lưu TXT tại: {output_path_txt}")
 
-# Thực hiện cho tập Test
-preprocess_pipeline('data/preprocessed/test.csv', 'data/processed/test_cleaned.csv')
+# Chạy lại pipeline với 3 tham số
+preprocess_pipeline('data/preprocessed/train.csv', 
+                    'data/processed/train_cleaned.csv', 
+                    'data/processed/train_fasttext.txt')
+
+preprocess_pipeline('data/preprocessed/test.csv', 
+                    'data/processed/test_cleaned.csv', 
+                    'data/processed/test_fasttext.txt')
