@@ -1,0 +1,16 @@
+# Data Processing
+pandas
+numpy
+
+# NLP for Vietnamese
+underthesea
+
+# Machine Learning
+fasttext-wheel
+scikit-learn
+
+# Progress Bar & Utilities
+tqdm
+
+# Acurracy & Confusion metrics
+sklearn.metrics
