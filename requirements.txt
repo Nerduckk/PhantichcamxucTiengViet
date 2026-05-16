@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+underthesea
+tqdm
+torch
+transformers
+datasets
+accelerate
+evaluate
+safetensors
+fasttext-wheel
