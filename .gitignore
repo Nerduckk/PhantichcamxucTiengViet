@@ -1,39 +1,36 @@
-# ========================
-# Cơ sở dữ liệu 
-# ========================
-*.db
-users.db
-*.sqlite3
 
-# ========================
-# File rác và Cache của Python / Jupyter
-# ========================
-__pycache__/
-*.py[cod]
-*$py.class
-.ipynb_checkpoints/
-
-# ========================
-# Dữ liệu nặng (Tùy chọn)
-# ========================
-# Nếu các file .csv hoặc .zip của bạn quá nặng (trên 50MB) 
-# và bạn không muốn đẩy lên Git, hãy xóa dấu # ở 2 dòng dưới:
-# *.csv
-# *.zip
-
-# --- Rác hệ thống (Không liên quan đến code) ---
-*.pyc
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# --- Môi trường làm việc  ---
-venv/
-.venv/
-.vscode/
-.idea/
 .streamlit/secrets.toml
 .env
-
 # --- File log phát sinh khi chạy ---
 *.log
+# --- File log phát sinh khi chạy ---
+*.log
+# ========================
+# Model outputs / artifacts
+# ========================
+src/
+outputs/
+*.bin
+*.safetensors
+checkpoint-*/
+# ========================
+# Notebook / experiment artifacts
+# ========================
+.ipynb_checkpoints/
+# ========================
+# Temporary processed/debug files
+# ========================
+data/processed/*_verify.txt
+data/processed/test_external_cleaned.csv
+data/processed/test_external_fasttext.txt
+# ========================
+# Optional large processed files
+# Keep these ignored if the notebook can regenerate them.
+# Uncomment if you do not want processed outputs in git.
+# ========================
+# data/processed/train_fasttext.txt
+# data/processed/val_fasttext.txt
+# data/processed/test_fasttext.txt
+# data/processed/train_new_cleaned.csv
+# data/processed/val_cleaned.csv
+# data/processed/test_cleaned.csv
