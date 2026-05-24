@@ -10,3 +10,4 @@ accelerate
 evaluate
 safetensors
 fasttext-wheel
+streamlit
